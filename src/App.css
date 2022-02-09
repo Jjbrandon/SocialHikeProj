@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body {
+  background-color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.authwrapper {
+    
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    
   }
+
+
+#formBasicEmail{
+  
+  border:0
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#formBasicPassword{
+  
+  
+  border:0
 }
 
-.App-link {
-  color: #61dafb;
+#authbutton{
+  border: none;
+  background-image: linear-gradient(to bottom right,#000428,#004e92);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .box {
+    border: 1px solid #ffffff;
+    background-color: #00544e00;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .g-btn {
+    width: 100% !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 15px !important;
   }
-}
+  .g-btn > div,
+  .g-btn > div > svg {
+    width: 40px !important;
+    height: 38px !important;
+  }
